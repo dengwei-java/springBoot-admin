@@ -1,5 +1,7 @@
 # springBoot-admin
 springBoot-admin是开源的应用监控框架
+GitHub: https://github.com/codecentric/spring-boot-admin
+参考指南：https://codecentric.github.io/spring-boot-admin/2.3.1/
 主要的功能点有：
 显示健康状况
 显示详细信息，例如
