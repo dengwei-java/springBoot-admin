@@ -1,10 +1,20 @@
+server:
+  port: 8082
+
+# 注册到 admin-server 8081
 spring:
   boot:
     admin:
       client:
-        url: http://localhost:8081
+        url: http://127.0.0.1:9001
+  application:
+    name: admin-client
+# web端点暴露
 management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
